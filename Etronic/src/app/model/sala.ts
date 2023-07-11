@@ -1,4 +1,8 @@
-export class Sala{
-  id:number=0
-  sala:string=""
+import { Jugador } from "./jugador"
+
+export interface Sala{
+  id:number
+  sala:string
+  jugadores:Jugador[];
 }
+

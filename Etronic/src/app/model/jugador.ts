@@ -1,7 +1,7 @@
-import { Sala } from "./sala"
+import { Pregunta } from "./pregunta"
 
-export class Jugador{
-  id:number=0
-  nombre:string=""
-  sala:Sala=new Sala()
+export interface Jugador{
+  id:number
+  nombre:string
+  preguntas:Pregunta[]
 }
