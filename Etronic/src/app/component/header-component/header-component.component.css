@@ -1,0 +1,30 @@
+.example-spacer {
+    flex: 1 1 auto ;
+   
+}
+.contenedor-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+
+.mat-toolbar.mat-primary {
+    background:red
+}
+.header-home
+{
+    margin-right: 20px;
+}
+.header-AboutUs{
+    margin-right: 20px;
+}
+
+.header-play{
+    margin-right: 20px;
+}
+.header-X
+{
+    margin-right: 20px;
+    opacity: 0;
+}
