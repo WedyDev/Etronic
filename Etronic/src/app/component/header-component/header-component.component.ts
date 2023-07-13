@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-component.component.css']
 })
 export class HeaderComponentComponent {
-  
+  constructor(){}
+
+  ngOnInit(): void{ 
+    
+  }
+
+  openMenu():void{
+    document.getElementById('nav')?.classList.add('visible');
+  }
+  closeMenu(): void{
+    document.getElementById('nav')?.classList.remove('visible');
+  }
+
+
 }
