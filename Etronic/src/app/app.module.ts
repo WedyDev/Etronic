@@ -11,7 +11,6 @@ import { AboutusComponent } from './views/Landingpage/aboutus/aboutus.component'
 import { PlayComponent } from './views/Landingpage/play/play.component';
 import { RegisterComponent } from './views/register/register.component';
 import { LoginComponent } from './views/login/login.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

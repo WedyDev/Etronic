@@ -1,6 +1,6 @@
 .example-spacer {
     flex: 1 1 auto ;
-   
+
 }
 .contenedor-logo{
     display: flex;
@@ -10,7 +10,7 @@
 
 
 .mat-toolbar.mat-primary {
-    background:red
+    background:rgb(144, 122, 122)
 }
 .header-home
 {
