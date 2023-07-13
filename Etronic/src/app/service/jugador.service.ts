@@ -14,4 +14,6 @@ export class JugadorService {
   private url=`${base_url}/jugador`
   constructor(private http:HttpClient) { }
 
+
+
 }
