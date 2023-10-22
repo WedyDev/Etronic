@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .example-spacer {
     flex: 1 1 auto ;
 
@@ -11,15 +12,30 @@
 
 .mat-toolbar.mat-primary {
     background:rgb(144, 122, 122)
+=======
+/* Media query para pantallas de 970px o menos */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center; /* Alineación central para .navbarSupportedContent */
+  }
+
+  /* Alineación central para los elementos .navbar-nav y .brand */
+  .navbar-nav {
+    text-align: center;
+  }
+
+.navbar-expand-lg{
+  backdrop-filter: blur(10px); /* Ajusta el valor de desenfoque según tus preferencias */
+  background-color: rgba(18, 18, 18, 0.1);
+
+  @media (max-width: 319px) {
+    display: none;
+    }
+>>>>>>> Stashed changes
 }
-.header-home
-{
-    margin-right: 20px;
-}
-.header-AboutUs{
-    margin-right: 20px;
 }
 
+<<<<<<< Updated upstream
 .header-play{
     margin-right: 20px;
 }
@@ -28,3 +44,9 @@
     margin-right: 20px;
     opacity: 0;
 }
+=======
+.nav-link:hover{
+  color: rgb(156, 144, 133);
+}
+
+>>>>>>> Stashed changes

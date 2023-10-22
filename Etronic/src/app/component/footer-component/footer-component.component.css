@@ -1,0 +1,47 @@
+<<<<<<< Updated upstream
+=======
+
+/*FOOTER*/
+.fab{
+  font-size: 30px;
+  margin-top: 4px;
+}
+
+.fab:hover{
+  color: #817b7b;
+}
+
+.fa-sharp{
+  color: white;
+  font-size: 50px;
+}
+
+.fa-sharp:hover{
+  color: #4c3b3a;
+}
+
+.color{
+  color: rgb(139, 139, 139);
+}
+
+.color:hover{
+  color: #E52D27;
+}
+
+
+.album{
+  @media (max-width: 319px) {
+    display: none;
+    }
+}
+
+@media (max-width: 576px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.album{}
+>>>>>>> Stashed changes
