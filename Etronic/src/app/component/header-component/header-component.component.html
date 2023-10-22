@@ -1,30 +1,42 @@
 <<<<<<< Updated upstream
 <header>
     <mat-toolbar color="primary">
-        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-          <mat-icon>menu</mat-icon>
-        </button>
+        
         <div class="contenedor-logo">
             <img src="https://i.ytimg.com/an/te53PewI8_jYpBYn071MqQ/featured_channel.jpg?v=607a01f4" width="60" height="60" alt="Logo" />
-            <span>Etronic</span>
+            <span>ETRONIC</span>
         </div>
         <span class="example-spacer"></span>
-        <div class="buttons-header">
-            <button mat-raised-button color="accent" class="header-X" aria-label="Scape">
-                <span class="material-icons">
-                    close
-                </span>
-            </button>
-            <button mat-raised-button color="accent" class="header-home" aria-label="Go home">
-                Home
-            </button>
-            <button mat-raised-button color="accent" class="header-AboutUs" aria-label="About Etronic">
-                About us
-            </button>
-            <button mat-raised-button color="accent" class="header-play" aria-label="Start Playing">
-                Play
-            </button>
-        </div>
+        <nav class="nav" id="nav">
+            <ul class="nav-list">
+                <li>
+                    <button mat-raised-button color="warn" class="close-menu" aria-label="Scape" (click)="closeMenu()">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </button>
+                </li>
+                <li>
+                    <button mat-raised-button color="accent" class="header-home" aria-label="Go home">
+                        Home
+                    </button>
+                </li>
+                <li>
+                    <button mat-raised-button color="accent" class="header-AboutUs" aria-label="About Etronic">
+                        About us
+                    </button>
+                </li>
+                <li>
+                    <button mat-raised-button color="accent" class="header-play" aria-label="Start Playing">
+                        Play
+                    </button>
+                </li>
+            </ul>
+            
+        </nav>
+        <button mat-icon-button class="menu-button" aria-label="Example icon-button with menu icon" (click)="openMenu()">
+            <mat-icon>menu</mat-icon>
+        </button>
         
       </mat-toolbar>
 </header>
